@@ -1,0 +1,150 @@
+html {
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgb(250, 238, 229);
+}
+
+header {
+    background-color: #EA9850;
+    padding: 10px;
+}
+
+.logo {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    font-size: 25px;
+}
+nav {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+form {
+    margin: 10px 0;
+}
+
+h5 {
+    margin: 0 10px;
+    padding-top: 20px;
+    color: #fff;
+    font-size: 30px;
+}
+
+.sign-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 100%;
+    padding-top: 30px;
+}
+
+.sign-up {
+    margin: 10px;
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 15px
+
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.hero-paragraph {
+    margin: 10px;
+    color: #fff;
+    width: 50%;
+}
+
+img {
+    margin-top: 15px;
+}
+
+.user {
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.allusers {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.allusers img {
+    height: 100px;
+    width: 100px;
+}
+
+.main {
+    background-image: url("hero-img.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+}
+
+.location, .title {
+    font-size: 25px;
+    margin: 0;
+    font-weight: bold;
+}
+
+.feature, .profile {
+    margin: 20px 20px;
+}
+
+.review, .user {
+    border-bottom: 1px solid grey;
+    padding: 20px 0;
+}
+
+h6 {
+    margin: 0;
+    font-size: 15px;
+}
+
+
+@media only screen and (min-width: 998px){
+
+    header {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    nav {
+        flex-direction: row;
+    }
+
+    a {
+        display: flex;
+        margin: 10px;
+    }
+
+    .nav-search {
+        display: flex;
+    }
+
+    .sign-container {
+        margin-top: 200px;
+    }
+
+    .allreviews, .allusers {
+        display: flex;
+    }
+
+    .review,  {
+        border-left: 2px solid gray;
+        padding: 10px 20px 0 20px;
+        border-bottom: 0;
+    }
+
+    .user img {
+        width: 200px;
+        height: 200px;
+    }
+}
